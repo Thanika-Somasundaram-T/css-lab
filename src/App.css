@@ -1,28 +1,28 @@
 .b1 {
 	background: orangered;
-	top: 100px;
-	left: 100px;
+	top: 60px;
+	left: 60px;
 	border-radius: 30px 0px 10px 0px;
 }
 
 .b2 {
 	 background: #7FBA00;
-	top: 85px;
-	left: 215px;
+	top: 45px;
+	left: 175px;
 	border-radius: 0px 30px 0px 10px;
 }
 
 .b3 {
 	background: #00A4EF;
-	top: 215px;
-	left: 100px;
+	top: 175px;
+	left: 60px;
 	border-radius: 0px 10px 0px 30px;
 }
 
 .b4 {
 	background: #FFB900;
-	top: 200px;
-	left: 215px;
+	top: 160px;
+	left: 175px;
 	border-radius: 10px 0px 30px 0px;
 }
 
@@ -34,17 +34,17 @@
 	width: 100px;
 	box-shadow: 25px 30px 12px -5px #737373;
 	transform: skew(0deg,-7deg);
-	animation-name: scale;
-	animation-duration: 5s;
+	/* animation-name: scale; */
+	/* animation-duration: 5s; */
 
 }
 
 .circle {
 	position: absolute;
-	height:350px;
+	height: 350px;
 	width: 350px;
-	top: 30px;
-	left: 45px;
+	top: 25%;
+	left: 35%;
 	border-radius: 50%;
 	background: rgb(109, 220, 248);
 }
