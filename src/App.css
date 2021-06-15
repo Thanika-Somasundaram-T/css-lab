@@ -39,9 +39,19 @@
 
 }
 
+.circle {
+	position: absolute;
+	height:350px;
+	width: 350px;
+	top: 30px;
+	left: 45px;
+	border-radius: 50%;
+	background: rgb(109, 220, 248);
+}
+
 .App {
 	text-align: center;
-	 background: rgb(109, 220, 248);
+	background: rgb(237, 247, 250);
 	height: 100vh;
 	width: 100vw;
 }
