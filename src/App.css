@@ -2,39 +2,44 @@
 	background: orangered;
 	top: 100px;
 	left: 100px;
+	border-radius: 30px 0px 10px 0px;
 }
 
 .b2 {
 	 background: #7FBA00;
-	top: 90px;
+	top: 85px;
 	left: 215px;
+	border-radius: 0px 30px 0px 10px;
 }
 
 .b3 {
 	background: #00A4EF;
 	top: 215px;
 	left: 100px;
+	border-radius: 0px 10px 0px 30px;
 }
 
 .b4 {
 	background: #FFB900;
-	top: 205px;
+	top: 200px;
 	left: 215px;
+	border-radius: 10px 0px 30px 0px;
 }
 
 
 .box {
-	border: 5px solid #737373;
+	border: 5px solid rgb(230, 225, 216);
 	position: absolute;
 	height: 100px;
 	width: 100px;
-	box-shadow: 50px 80px 18px -8px #737373;
-	transform: skew(0deg,-5deg);
+	box-shadow: 25px 30px 12px -5px #737373;
+	transform: skew(0deg,-7deg);
+
 }
 
 .App {
 	text-align: center;
-	 background: #01a4f09f;
+	 background: rgb(109, 220, 248);
 	height: 100vh;
 	width: 100vw;
 }
@@ -73,3 +78,4 @@
 		transform: rotate(360deg);
 	}
 }
+
