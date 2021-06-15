@@ -1,37 +1,42 @@
-
 .b1 {
-	background: red;
+	background: orangered;
 	top: 100px;
 	left: 100px;
 }
 
 .b2 {
-	background: green;
-	top: 100px;
-	left: 220px;
+	 background: #7FBA00;
+	top: 90px;
+	left: 215px;
 }
 
 .b3 {
-	background: blue;
-	top: 220px;
+	background: #00A4EF;
+	top: 215px;
 	left: 100px;
 }
 
 .b4 {
-	background: yellow;
-	top: 220px;
-	left: 220px;
+	background: #FFB900;
+	top: 205px;
+	left: 215px;
 }
 
+
 .box {
-	border: 1px solid palegreen;
+	border: 5px solid #737373;
 	position: absolute;
 	height: 100px;
 	width: 100px;
+	box-shadow: 50px 80px 18px -8px #737373;
+	transform: skew(0deg,-5deg);
 }
 
 .App {
 	text-align: center;
+	 background: #01a4f09f;
+	height: 100vh;
+	width: 100vw;
 }
 
 .App-logo {
