@@ -34,6 +34,8 @@
 	width: 100px;
 	box-shadow: 25px 30px 12px -5px #737373;
 	transform: skew(0deg,-7deg);
+	animation-name: scale;
+	animation-duration: 5s;
 
 }
 
@@ -79,3 +81,15 @@
 	}
 }
 
+@keyframes scale {
+	from {
+		height: 0px;
+		width: 0px;
+		border-radius: 0px;
+	}
+	to {
+		height: 100px;
+		width: 100px;
+		border-radius: 10px 10px 10px 10px;
+	}
+}
