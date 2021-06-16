@@ -34,8 +34,8 @@
 	width: 100px;
 	box-shadow: 25px 30px 12px -5px #737373;
 	transform: skew(0deg,-7deg);
-	/* animation-name: scale; */
-	/* animation-duration: 5s; */
+	animation-name: scale;
+	animation-duration: 5s;
 
 }
 
@@ -47,6 +47,8 @@
 	left: 35%;
 	border-radius: 50%;
 	background: rgb(109, 220, 248);
+	animation-name: rotate-circle;
+	animation-duration: 5s;
 }
 
 .App {
@@ -103,3 +105,34 @@
 		border-radius: 10px 10px 10px 10px;
 	}
 }
+
+@keyframes rotate-circle {
+	0% {
+		transform: rotate(0deg);
+		top: 10%;
+		left: 15%;
+	}
+	25% {
+		transform: rotate(90deg);
+		top: 10%;
+		left: 70%;
+	}
+	50% {
+		transform: rotate(180deg);
+		top: 40%;
+		left: 15%;
+	}
+	75% {
+		transform: rotate(270deg);
+		top: 40%;
+		left: 70%;
+	}
+	100% {
+		transform: rotate(360deg);
+		top: 25%;
+		left: 35%;
+	}
+
+}
+
+
