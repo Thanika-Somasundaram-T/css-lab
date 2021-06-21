@@ -1,0 +1,26 @@
+.rope {
+	position: absolute;
+	height: 50%;
+	width: 1%;
+	top: 20%;
+	left: calc(50% - 0.5%);
+	background-color: black;
+}
+
+.pendulum {
+	position: absolute;
+	height: 10%;
+	width: 10%;
+	border-radius: 50%;
+	top: 70%;
+	left: calc(50% - 5%);
+	background: red;
+}
+
+.container {
+	position: absolute;
+	height: 500px;
+	width: 500px;
+	top: calc(50% - 250px);
+	left: calc(50% - 250px);
+}
