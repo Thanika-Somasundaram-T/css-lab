@@ -54,10 +54,10 @@
 }
 
 .logo {
-	transform: skew(0deg,0deg);
 	border-radius: 50%;
-	height: 100%;
-	width: 100%;
+	border: 5px solid rgb(250, 250, 250);
+	height: calc(100% - 10px);
+	width: calc(100% - 10px);
 	background-color: rgb(109, 220, 248);
 	animation: rotate-circle infinite 10s ease-in-out ;
 }
