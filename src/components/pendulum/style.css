@@ -32,10 +32,10 @@
 
 .container-pen {
 	position: absolute;
-	height: 250px;
-	width: 250px;
-	top: calc(50% - 125px);
-	left: calc(50% - 125px);
+	height: 500px;
+	width: 500px;
+	top: calc(50% - 250px);
+	left: calc(50% - 250px);
 
 
 }
@@ -44,13 +44,16 @@
 	position: absolute;
 	height: 50%;
 	width: 25%;
-	top: calc(50% - 62.5px);
-	left: calc(50% - 31.25px);
+	top: calc(50% - 125px);
+	left: calc(50% - 62.5px);
 	transform-origin: 50% 0%;
-	/* animation: rotate 2s infinite linear; */
+	animation: rotate 2s infinite linear;
 }
 
 @keyframes rotate {
+	0%,50%,100% {
+		transform: rotate(0deg);
+	}
 	25% {
 		transform: rotate(-45deg);
 	}
@@ -58,15 +61,4 @@
 		transform: rotate(45deg);
 	}
 
-}
-
-@keyframes scale {
-	0% {
-		height: 0%;
-		width: 0%;
-	}
-	100% {
-		height: 100%;
-		width: 100%;
-	}
 }
