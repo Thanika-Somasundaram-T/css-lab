@@ -18,7 +18,7 @@
 
 }
 
-.pendulum {
+.ball {
 	position: absolute;
 	height: 20%;
 	width: 40%;
@@ -30,7 +30,7 @@
 
 }
 
-.container-pen {
+.pendulum-pane .container {
 	position: absolute;
 	height: 500px;
 	width: 500px;
@@ -40,7 +40,7 @@
 
 }
 
-.box-pen {
+.pendulum {
 	position: absolute;
 	height: 50%;
 	width: 25%;

@@ -3,7 +3,7 @@ import './style.css';
 
 const Logo = () =>
 	<div className="logo-pane">
-		<div className="container-logo">
+		<div className="container">
 			<div className="logo">
 				<div className=" box b1"/>
 				<div className="box b2"/>

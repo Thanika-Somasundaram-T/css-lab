@@ -45,7 +45,7 @@
 	animation: scale infinite 10s linear;
 }
 
-.container-logo {
+.logo-pane .container {
 	position: absolute;
 	height: 400px;
 	width: 400px;
