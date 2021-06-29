@@ -41,5 +41,21 @@
 	}
 }
 
+.logo-pane {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	top: 0%;
+	left: 0%;
+	background-color: rgb(50, 102, 102);
+}
 
+.pendulum-pane {
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	top: 0%;
+	left: 50%;
+	background-color: rgb(57, 179, 179);
+}
 

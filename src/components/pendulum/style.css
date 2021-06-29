@@ -1,12 +1,3 @@
-.pendulum-pane {
-	position: absolute;
-	height: 100%;
-	width: 50%;
-	top: 0%;
-	left: 50%;
-	background-color: rgb(57, 179, 179);
-
-}
 .rope {
 	position: absolute;
 	height: 80%;
@@ -36,8 +27,6 @@
 	width: 500px;
 	top: calc(50% - 250px);
 	left: calc(50% - 250px);
-
-
 }
 
 .pendulum {

@@ -1,12 +1,3 @@
-.logo-pane {
-	position: absolute;
-	height: 100%;
-	width: 50%;
-	top: 0%;
-	left: 0%;
-	background-color: rgb(50, 102, 102);
-}
-
 .b1 {
 	background-color: orangered;
 	bottom: calc(50% + 2px);
