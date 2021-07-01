@@ -1,6 +1,7 @@
 import { React } from 'react';
 import './style.css';
 import context from '../../core/context';
+import config from '../../core/config';
 
 const selectBox = () =>
 	<select
@@ -9,7 +10,7 @@ const selectBox = () =>
 		value={ context.state.theme }
 		onChange={ (evt) => context.actions.setTheme(evt.target.value) }
 	>
-		{ context.seed.boxTheme.map((theme) =>
+		{ config.boxTheme.map((theme) =>
 			<option
 				key={ theme }
 				value={ theme }
