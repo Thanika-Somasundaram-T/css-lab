@@ -1,12 +1,16 @@
 import { React } from 'react';
 import './style.css';
 import InnerBoxes from './innerBoxes';
+import selectBox from './selectBox';
 
 
 
 const TreasureBox = () =>
-	<div className="container-box">
-		{ InnerBoxes() }
+	<div>
+		<div>{ selectBox() }</div>
+		<div className="container-box">
+			{ InnerBoxes() }
+		</div>
 	</div>;
 
 
